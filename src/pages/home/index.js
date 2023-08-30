@@ -78,7 +78,7 @@ const HomePage = () => (
 		</ImgBlock>
 		<LinkBlock className='container'>
 			<LinkWrapper>
-				<Link className='button' href="yandex.ru" target="_blank">
+				<Link className='button' href="https://github.com/MedvedevNik/spa-project" target="_blank">
 					Данный проект
 				</Link>
 			</LinkWrapper>
