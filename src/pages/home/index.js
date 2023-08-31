@@ -22,6 +22,7 @@ const ImgBlock = styled.div`
 `;
 
 const LinkBlock = styled.div`
+	max-width: 1000px;
 	text-align: center;
 `;
 

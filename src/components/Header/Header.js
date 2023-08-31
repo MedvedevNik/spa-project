@@ -3,9 +3,12 @@ import styled from "@emotion/styled";
 import { Link } from 'react-router-dom';
 
 const HeaderWrapper = styled.div`
-	height: 60px;
+	height: 40px;
 	background-color: darkcyan;
 	color: white;
+	@media screen and (min-width: 1280px) {
+		height: 60px;
+	}
 	.container {
 		height: 100%;
 		display: flex;
@@ -19,10 +22,13 @@ const HeaderWrapper = styled.div`
 `;
 
 const Text = styled.span`
-	font-size: 18px;
+	font-size: 16px;
     font-weight: bold;
     color: inherit;
     text-decoration: none;
+	@media screen and (min-width: 1280px) {
+		font-size: 18px;
+	}
 `;
 
 const Header = () => (
