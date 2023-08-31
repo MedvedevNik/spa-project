@@ -22,9 +22,9 @@ function App() {
             <Header brand='Иван Иванов'></Header>
             <main>
                 <Routes>
-                    <Route path='/' element={<HomePage />} />
+                    <Route path='/home' element={<HomePage />} />
                     <Route path='/project' element={<ProjectPage />} />
-                    <Route path='*' element={<Navigate to="/" />} />
+                    <Route path='*' element={<Navigate to="/home" />} />
                 </Routes>
             </main>
         </AppContainer>
