@@ -34,7 +34,7 @@ const Text = styled.span`
 const Header = () => (
 	<HeaderWrapper>
 		<div className='container'>
-			<Link to='/home'>
+			<Link to='/'>
 				<Text>
 					Главная
 				</Text>

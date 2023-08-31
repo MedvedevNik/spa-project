@@ -1,16 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const routerBaseName = process.env.PUBLIC_URL;
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <Router basename={routerBaseName}>
       <App />
-    </BrowserRouter>
+    </Router>
   </React.StrictMode>
 );
 
